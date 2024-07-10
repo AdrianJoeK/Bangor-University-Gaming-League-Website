@@ -1,0 +1,261 @@
+body, html {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+body {
+    background: linear-gradient(45deg, #0AF445, #07BDFF);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bugl-logo {
+    width: 200px;
+}
+
+#bugl-textLogo {
+    width: 300px;
+}
+
+h1, h2, h3 {
+    color: #333333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #005E80;
+}
+
+a:hover {
+    color: #0D74D1;
+}
+
+.section-style {
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #2B2B2B;
+    color: #ffffff;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: rgb(200, 200, 200);
+}
+
+.btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    color: #e7e7e7;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.1);
+}
+
+.btn:focus, .btn:active {
+    transform: translateY(0);
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.discord-btn {
+    background: linear-gradient(45deg, #5865F2, #738ADF);
+}
+
+.twitter-btn {
+    background-color: #1DA1F2;
+}
+
+.twitch-btn {
+    background-color: #6441A4;
+}
+
+.instagram-btn {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2e75, #a31dc4);
+}
+
+.tiktok-btn {
+    background-color: #000000;
+}
+
+.undeb-btn {
+    background-color: #A28E6A;
+}
+
+.email-btn {
+    background-color: #D44638;
+}
+
+.twitter-btn:hover {
+    background-color: #1a8ac6;
+}
+
+.twitch-btn:hover {
+    background-color: #512d8b;
+}
+
+.instagram-btn:hover {
+    background: linear-gradient(45deg, #e08330, #d55f67, #c42470, #931db3);
+}
+
+.tiktok-btn:hover {
+    background-color: #333333;
+}
+
+.undeb-btn:hover {
+    background-color: #8c7453;
+}
+
+.email-btn:hover {
+    background-color: #b7382d;
+}
+
+.facebook-btn {
+    background-color: #1877F2;
+    color: #ffffff;
+}
+
+.youtube-btn {
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+.facebook-btn:hover {
+    background-color: #155db2;
+}
+
+.youtube-btn:hover {
+    background-color: #e00000;
+}
+
+/* ARIA Skip to main content link Style (This hides it but screen readers still see it.) */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #ffffff00;
+    padding: 10px;
+    z-index: 100;
+    transition: top 0.3s;
+ }
+ 
+ .skip-link:focus {
+    top: 0;
+ }
+ 
+/* Tablet Screens */
+@media screen and (max-width: 1000px) {
+    .section-style {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 820px) {
+    .section-style {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #bugl-logo {
+        width: 150px;
+        max-width: none;
+    }
+
+    #bugl-textLogo {
+        width: 65%;
+        max-width: 95%;
+    }
+
+    footer {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 480px) {
+    .section-style {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #bugl-logo {
+        width: 120px;
+        max-width: none;
+    }
+
+    #bugl-textLogo {
+        max-width: 75%;
+    }
+
+    footer {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
